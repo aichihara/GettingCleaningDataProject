@@ -1,29 +1,97 @@
 CodeBook.MD
 
- 
+This code book summarizes the resulting data fields in tidy.txt.
 
-Getting and Cleaning Data Project 
-Ana Travassos
+Identifiers
 
-Description
+subject - The ID of the test subject
+activity - The type of activity performed when the corresponding measurements were taken
+Measurements
 
-Code Book
+tBodyAccMeanX
+tBodyAccMeanY
+tBodyAccMeanZ
+tBodyAccStdX
+tBodyAccStdY
+tBodyAccStdZ
+tGravityAccMeanX
+tGravityAccMeanY
+tGravityAccMeanZ
+tGravityAccStdX
+tGravityAccStdY
+tGravityAccStdZ
+tBodyAccJerkMeanX
+tBodyAccJerkMeanY
+tBodyAccJerkMeanZ
+tBodyAccJerkStdX
+tBodyAccJerkStdY
+tBodyAccJerkStdZ
+tBodyGyroMeanX
+tBodyGyroMeanY
+tBodyGyroMeanZ
+tBodyGyroStdX
+tBodyGyroStdY
+tBodyGyroStdZ
+tBodyGyroJerkMeanX
+tBodyGyroJerkMeanY
+tBodyGyroJerkMeanZ
+tBodyGyroJerkStdX
+tBodyGyroJerkStdY
+tBodyGyroJerkStdZ
+tBodyAccMagMean
+tBodyAccMagStd
+tGravityAccMagMean
+tGravityAccMagStd
+tBodyAccJerkMagMean
+tBodyAccJerkMagStd
+tBodyGyroMagMean
+tBodyGyroMagStd
+tBodyGyroJerkMagMean
+tBodyGyroJerkMagStd
+fBodyAccMeanX
+fBodyAccMeanY
+fBodyAccMeanZ
+fBodyAccStdX
+fBodyAccStdY
+fBodyAccStdZ
+fBodyAccMeanFreqX
+fBodyAccMeanFreqY
+fBodyAccMeanFreqZ
+fBodyAccJerkMeanX
+fBodyAccJerkMeanY
+fBodyAccJerkMeanZ
+fBodyAccJerkStdX
+fBodyAccJerkStdY
+fBodyAccJerkStdZ
+fBodyAccJerkMeanFreqX
+fBodyAccJerkMeanFreqY
+fBodyAccJerkMeanFreqZ
+fBodyGyroMeanX
+fBodyGyroMeanY
+fBodyGyroMeanZ
+fBodyGyroStdX
+fBodyGyroStdY
+fBodyGyroStdZ
+fBodyGyroMeanFreqX
+fBodyGyroMeanFreqY
+fBodyGyroMeanFreqZ
+fBodyAccMagMean
+fBodyAccMagStd
+fBodyAccMagMeanFreq
+fBodyBodyAccJerkMagMean
+fBodyBodyAccJerkMagStd
+fBodyBodyAccJerkMagMeanFreq
+fBodyBodyGyroMagMean
+fBodyBodyGyroMagStd
+fBodyBodyGyroMagMeanFreq
+fBodyBodyGyroJerkMagMean
+fBodyBodyGyroJerkMagStd
+fBodyBodyGyroJerkMagMeanFreq
+Activity Labels
 
-The program:
-
-1) Input Files:
-•features.txt
-•activity_labels.txt
-•subject_train.txt
-•x_train.txt
-•y_train.txt
-•subject_test.txt
-•x_test.txt
-•y_test.txt
-
-2) Procedure:
-
-2.a: Merge the training and the test sets to create one data set: Read in the train data and test data and make the merge using rbind.
-2.b: Extract:  measurements,  mean and standard deviation for each measurement using a logical vector and subsets.
-2.c: Features contains correct names. activityType  includes descriptive acitvity names.
-2.d: Export results to a file tidyData.txt'
+WALKING (value 1): subject was walking during the test
+WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
+WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
+SITTING (value 4): subject was sitting during the test
+STANDING (value 5): subject was standing during the test
+LAYING (value 6): subject was laying down during the test
