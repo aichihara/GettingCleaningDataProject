@@ -3,7 +3,7 @@ Getting and Cleaning Data - Course Project
 
 Run_analysis.R, does:
 
-1.Merges the training and the test sets to create one data set.
+1.Merges the training and the test sets to create one data set. The dataset being used is: Human Activity Recognition Using Smartphones
 
 2.Extracts only the measurements on the mean and standard deviation for each measurement. 
 
