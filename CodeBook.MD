@@ -90,7 +90,7 @@ fBodyBodyGyroJerkMagStd,
 fBodyBodyGyroJerkMagMeanFreq, 
 Activity Labels
 
-WALKING (value 1): walkduring the test
+WALKING (value 1): walk during the test
 WALKING_UPSTAIRS (value 2): walk up a staircase during the test
 WALKING_DOWNSTAIRS (value 3): walk down a staircase during the test
 SITTING (value 4): sit during the test
